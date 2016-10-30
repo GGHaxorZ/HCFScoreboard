@@ -41,6 +41,6 @@ public class PlayerPearled extends Timer implements Listener {
     		super.cancel(super.map.get(player));
     	}
         
-    	super.cooldown(player, Defaults.PEARL_COOLDOWN_MAX_TIME, ColorRegex.colors(super.plugin.getConfig().getString(Paths.PEARL_COOLDOWN_TITLE)));
+    	super.cooldown(player, 16, "§eEnderpearl");
     }
 }
